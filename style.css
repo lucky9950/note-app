@@ -1,12 +1,12 @@
 body{
     margin: 0;
-    background: linear-gradient(to left,lightblue,lightgreen);
+    background: linear-gradient(to left,rgb(37, 231, 228),rgb(189, 211, 127));
     font-family: 'Courier New', Courier, monospace;
 
 }
 
 .heading{
-    color: darkblue;
+    color: rgb(96, 79, 79);
     text-align: center;
     padding-top:10px ;
     font-size: 35px;
@@ -14,7 +14,7 @@ body{
 
 .info-text{
     text-align: center;
-    color: darkblue;
+    color: rgb(14, 14, 37);
     font-size: 18px;
 }
 
@@ -34,16 +34,19 @@ body{
     box-shadow: 0 0 3px rgba(0,0,0,.3);
     font-size: 18px;
     height: 200px;
-    color: darkblue;
+    color: rgb(27, 27, 43);
     border: none;
     outline: none;
     background: rgba(255,255,255,.1);
     box-sizing: border-box;
+    border: 1px solid gray;
+    
 }
 
 .note::placeholder{
     color: gray;
     opacity: 30%;
+   
 
 }
 
